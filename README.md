@@ -10,7 +10,7 @@ Je travaille à présent sur la traduction en Julia du code GGP de Joseph Morlie
 
 Pour voir quelques exemples, jetez un oeuil au dossier "examples".
 
-# imports nécessaires pour fair fonctionner les codes
+# Imports nécessaires pour faire fonctionner les codes
 
 1. top99
   + SparseArrays
