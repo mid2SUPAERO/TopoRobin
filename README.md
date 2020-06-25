@@ -82,6 +82,7 @@ To use finite differences instead of automatic differentiation on a same problem
 The difference of efficiency between the version using the automatic differentiation and the version with an explicit expression for the derivative, as the SIMP codes are used, can be compared. Once the modifications in both algorithms have been made, the Julia command @ time will be useful, returning the execution time, the memory allocated during the execution and the proportion of time used for the garbage collection.
 
 5. topGGP
+
 The GGP code is much more complicated, as the amount of possibilities is more important as SIMP methods for a similar design space. It also allows to chose different methods to solve the problem. To adapt the code to an other problem than the one by default (MBB, solver GP), the obligations and possibilities are :
     + Import SparseArrays, LinearAlgebra, Plots, Statistics, SuiteSparse and VectorizedRoutines packages ;
     + Chose the design space through the inputs nelx and nely ;
