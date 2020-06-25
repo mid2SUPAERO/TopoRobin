@@ -84,7 +84,7 @@ The difference of efficiency between the version using the automatic differentia
 5. topGGP
 
 The GGP code is much more complicated, as the amount of possibilities is more important as SIMP methods for a similar design space. It also allows to chose different methods to solve the problem. To adapt the code to an other problem than the one by default (MBB, solver GP), the obligations and possibilities are :
-    + Import SparseArrays, LinearAlgebra, Plots, Statistics, SuiteSparse and VectorizedRoutines packages ;
-    + Chose the design space through the inputs nelx and nely ;
-    + Select the problem through the input problem, or define a new one writing from the line 114 of the main function ;
-    + Change the end conditions through the input maxoutit or the parameters kkttol and changetol lines 223 and 224.
+  + Import SparseArrays, LinearAlgebra, Plots, Statistics, SuiteSparse and VectorizedRoutines packages ;
+  + Chose the design space through the inputs nelx and nely ;
+  + Select the problem through the input problem, or define a new one writing from the line 114 of the main function ;
+  + Change the end conditions through the input maxoutit or the parameters kkttol and changetol lines 223 and 224.
