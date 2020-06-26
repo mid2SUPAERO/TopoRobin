@@ -2,13 +2,13 @@
 
 **Bienvenue sur le Git de Robin Grapin**
 
-Je découvre Julia et GitHub, j'essaierai donc de partager au mieux mon travail.
-
 top99 et Top88 sont les retranscriptions en Julia des codes matlab d'optimisatin topologique du même nom de Ole Sigmund.
 top88_AD et topFiniteDiff sont leurs versions adaptées aux cas où l'on n'a pas d'expression explicite fonction objectif. Le premier code calcule cette dernière à chaque itération en utilisant la différentiation automatique, tandis que le second utilise la méthode des différences finies.
 Quant au code topggp, il implémente la méthode Generalized Geometry Projection, inspiré du code de Simone Coniglio.
 ( voir https://topggp.github.io/blog/ )
 Cec codes rentrent dans le cadre de mon projet PIR de deuxième année à l'ISAE-Supaéro, sous la tutelle de Joseph Morlier.
+
+article overleaf : https://www.overleaf.com/project/5ee1fa32ac09c1000117c8ed
 
 Pour voir quelques exemples autres que la poutre MBB, jetez un oeuil au dossier "examples".
 
